@@ -1,2 +1,0 @@
-# SportsStore-LAZARTE
- SPORTSTORE MVC
