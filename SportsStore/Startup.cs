@@ -92,11 +92,9 @@ namespace SportsStore
                 endpoints.MapDefaultControllerRoute();
                 endpoints.MapRazorPages();
                 endpoints.MapBlazorHub();
-                endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
             });
 
             SeedData.EnsurePopulated(app);
-            IdentitySeedData.EnsurePopulated(app);
         }
     }
 }
